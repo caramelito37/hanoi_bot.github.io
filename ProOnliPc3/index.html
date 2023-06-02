@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hanoi Bot</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+</head>
+
+<body>
+
+  <div class="loader"></div>
+  <div id="myDiv">
+    <!--HEADER-->
+    <div class="header">
+      <div class="bg-color">
+        <header id="main-header">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="#">Hanói<span class="logo-dec"> Bot</span></a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="#main-header">Home</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="banner-info text-center wow fadeIn delay-05s">
+                <h1 class="bnr-title">SENATI</h1>
+                <h2 class="bnr-sub-title">Método de Proyecto SENATI</h2>
+                <p class="bnr-para">Proyecto sobre un brazo robótico que soluciona las torres de Hanói utilizando algoritmos recursivos</p>
+                <div class="brn-btn">
+                  <a href="#" class="btn btn-download">Descargar documentacion</a>
+
+                </div>
+                <div class="overlay-detail">
+                  <a href="#feature"><i class="fa fa-angle-down"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ HEADER-->
+    <!---->
+    <section id="feature" class="section-padding wow fadeIn delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/PROFE.png" >
+              </div>
+              <h3 class="pad-bt15">Docente</h3>
+              <p>LIU PHOL RAMOS FERNANDEZ</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/ser02.png">
+              </div>
+              <h3 class="pad-bt15">Equipo de Desarrolo</h3>
+              <p>-DAVID HUALLPA QQUECCAñO<br>
+                -NATHALY MEGGUI GARCIA AMAO<br>
+                -MATIAS HERRERA DIAZ<br>
+                -RONALDO ZUNIGA ROMERO<br>
+                -CARLOS QUISPE QUISPE
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/documentacion.jpeg">
+              </div>
+              <h3 class="pad-bt15">Equipo de Documentacion</h3>
+              <p>-MARY CIELO ACUNA TENIENTE<br>
+                -JOHAN JOSEPH VARGAS PAUCAR <br>
+                -YAMPIER ANDERSON ESCALANTE PANDO<br>
+                -BETO DAVID SALAZAR CCOTOHUANCA <br>
+                -JULIO CESAR HUAMAN TTITO </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/exposicion.jpeg">
+              </div>
+              <h3 class="pad-bt15">Equipo de Exposición</h3>
+              <p>-BRIAN ANGELO QUEJIA HUARI<br>
+                -SAMUEL GARCIA TURPO<br>  
+                -RICHARD BENIGNO CLEMENTE APAZA<br>  
+                -GONZALO SEDANO CONDORI<br> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <!---->
+    <section id="service" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Finalidad del Proyecto</h2>
+            <img src="img/robot.png" class="img-responsive">
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3><span>P</span>lanificar</h3>
+              <p>Al planificar, aprendemos identificar las mejores formas de utilizar tu tiempo, energía y recursos disponibles. Esto te permite maximizar tu eficiencia y aumentar nuestra productividad, ya que nos enfocamos en actividades clave y evitamos la dispersión.</p>
+
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3><span>R</span>ealizar</h3>
+              <p>Entendimiento de los algoritmos recursivos: Los algoritmos recursivos son una técnica en programación que implica la llamada a una función dentro de sí misma. Esto incluye comprender los conceptos de casos base, casos recursivos y cómo se resuelve un problema dividiéndolo en subproblemas más pequeños.</p>
+
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3><span>C</span>ontrolar</h3>
+              <p>Al controlar las pruebas, obtendrás un conocimiento más profundo del sistema del brazo robótico y su comportamiento en diferentes situaciones. Esto te brinda una visión más completa del funcionamiento del brazo robótico y te ayuda a comprender mejor su comportamiento y posibles limitaciones.</p>
+
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3><span>V</span>alorar</h3>
+              <p>Al realizar proyectos y pruebas, adquieres habilidades prácticas y técnicas relevantes para tu área de estudio. Puedes aprender a utilizar herramientas, software o equipos específicos, así como a desarrollar habilidades de resolución de problemas, pensamiento crítico, trabajo en equipo y comunicación.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Galeria de Imagenes</h2>
+            
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="img/blog_01.jpg" class="img-responsive">
+              <figcaption>
+                <h2>Armado del brazo robotico</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="img/blog_02.jpeg" class="img-responsive">
+              <figcaption>
+                <h2>Compra del brazo robotico</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="img/blog_03.jpg" class="img-responsive">
+              <figcaption>
+                <h2>Conexiones </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="img/blog_04.jpeg" class="img-responsive">
+              <figcaption>
+                <h2>Cargar Codigo </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="img/blog_05.gif" class="img-responsive">
+              <figcaption>
+                <h2>Funcionamoiento del brazo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="img/gif2.gif" class="img-responsive">
+              <figcaption>
+                <h2>Project For Everyone</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <!-- ESTUDIANTES -->
+    <section id="testimonial" class="wow fadeInUp delay-05s">
+      
+               
+          <center><img src="img/todos.jpeg" class="img-responsive"></center>
+
+    </section>
+    <!-- ESTUDIANTES -->
+
+
+
+
+    <!---->
+    <footer id="footer">
+      <div class="container">
+        <div class="row text-center">
+          <p></p>
+          <div class="credits">
+        
+              <a href="">ProOnliPc-Senati-David</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!---->
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+</html>
